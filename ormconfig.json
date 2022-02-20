@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "port": 3306,
+  "host": "localhost",
+  "username": "root",
+  "password": "",
+  "database": "dolar",
+  "entities": ["./src/modules/**/entities/*.ts"],
+  "migrations":["./src/dataBase/migrations/*.ts"],
+  "cli":{
+    "migrationsDir":"./src/dataBase/migrations/"
+  }
+}
